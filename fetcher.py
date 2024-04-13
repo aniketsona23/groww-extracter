@@ -17,5 +17,4 @@ def just_fetch(company):
     p = requests.get("https://groww.in/stocks/"+company)
     return p.text
 
-print(just_fetch("Coforge Ltd."))
 
